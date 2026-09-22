@@ -108,7 +108,7 @@ Start stopped containers:
 ```make start```     
 Clean up containers ans networks:  
 ```make clean```     
-FUll cleanup:  
+Full cleanup:  
 ```make fclean```    
 Rebuild the entire infrastructure:  
 ```make re```    
