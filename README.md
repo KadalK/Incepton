@@ -88,33 +88,33 @@ vim srcs/.env
 
 ## EXECUTION COMMANDE (Makefile)
 
-Build and start all services:
-make
-Stop running containers:
-make stop
-Start stopped containers:
-make start
-Clean up containers ans networks:
-make clean
-FUll cleanup:
-make fclean
-Rebuild the entire infrastructure:
-make re
+Build and start all services:  
+```make```  
+Stop running containers:  
+```make stop```    
+Start stopped containers:  
+```make start```     
+Clean up containers ans networks:  
+```make clean```     
+FUll cleanup:  
+```make fclean```    
+Rebuild the entire infrastructure:  
+```make re```    
 
 ## COMMANDS FOR EXPLORE DATABASES AND TABLES
-Enter into the docker:
-docker exec -it mariadb mariadb -u kapinarc -p
-Show all databases:
-SHOW DATABASES;
-Enter in the database of your choice (ex: wordpress):
-USE wordpress;
-Display all tables:
-SHOW TABLES;
-For see columns ans type of tables (ex: wp_users):
-Describe wp_users;
-For see all datas register in this table:
-SELECT * FROM wp_users;
-and "EXIT;" for quit
+Enter into the docker:  
+```docker exec -it mariadb mariadb -u kapinarc -p```    
+Show all databases:  
+```SHOW DATABASES;```    
+Enter in the database of your choice (ex: wordpress):  
+```USE wordpress;```    
+Display all tables:  
+```SHOW TABLES;```  
+For see columns ans type of tables (ex: wp_users):  
+```Describe wp_users;```  
+For see all datas register in this table:  
+```SELECT * FROM wp_users;```    
+and ```EXIT;``` for quit  
 
 
 ## ACCESSING THE APPLICATION
