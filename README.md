@@ -111,7 +111,7 @@ Enter in the database of your choice (ex: wordpress):
 Display all tables:  
 ```SHOW TABLES;```  
 For see columns ans type of tables (ex: wp_users):  
-```Describe wp_users;```  
+```DESCRIBE wp_users;```  
 For see all datas register in this table:  
 ```SELECT * FROM wp_users;```    
 and ```EXIT;``` for quit  
