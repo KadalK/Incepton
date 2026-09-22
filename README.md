@@ -77,7 +77,6 @@ The project requires setting up a multi-container architecture running a LEMP st
 
 ### 1. Local Domain Setup
 Add the required domain name to your host `/etc/hosts` file:
-```bash
 echo "127.0.0.1 kapinarc.42.fr" | sudo tee -a /etc/hosts
 
 ## ENVIRONEMENT CONFIGURATION
