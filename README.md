@@ -105,7 +105,7 @@ Build and start all services:
 Stop running containers:  
 ```make stop```    
 Start stopped containers:  
-```make start```     
+```make start```  
 Clean up containers ans networks:  
 ```make clean```     
 Full cleanup:  
@@ -117,11 +117,11 @@ Rebuild the entire infrastructure:
 Enter into the docker:  
 ```docker exec -it mariadb mariadb -u kapinarc -p```  
 Show all databases:  
-```SHOW DATABASES;``` 
+```SHOW DATABASES;```  
 Enter in the database of your choice (ex: wordpress):  
-```USE wordpress;``` 
+```USE wordpress;```  
 Display all tables:  
-```SHOW TABLES;```  
+```SHOW TABLES;```   
 For see columns ans type of tables (ex: wp_users):  
 ```Describe wp_users;```  
 For see all datas register in this table:  
