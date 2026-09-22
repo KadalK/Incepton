@@ -95,7 +95,7 @@ Stop running containers:
 Start stopped containers:  
 ```make start```  
 Clean up containers ans networks:  
-```make clean``` 
+```make clean```  
 Full cleanup:  
 ```make fclean```  
 Rebuild the entire infrastructure:  
